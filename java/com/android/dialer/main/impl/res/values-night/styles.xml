@@ -16,13 +16,6 @@
   -->
 <resources>
 
-  <style name="LaunchTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
-    <item name="android:colorPrimary">@color/dndndn</item>
-    <item name="colorPrimary">@color/dndndn</item>
-    <item name="android:colorPrimaryDark">@color/dndndn</item>
-    <item name="colorPrimaryDark">@color/dndndn</item>
-  </style>
-
   <!-- Activities should use this theme as their style -->
   <style name="MainActivityTheme" parent="MainActivityThemeBase"/>
 
@@ -54,5 +47,8 @@
   <!-- Colors our actionbar text in action mode to dialer white text color. -->
   <style name="ActionModeTitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionMode.Title">
     <item name="android:textColor">?android:attr/textColorPrimary</item>
+  </style>
+  <style name="BottomNavigationBarStyle" parent="@style/Widget.MaterialComponents.BottomNavigationView">
+    <item name="background">@*android:color/background_floating_device_default_dark</item>
   </style>
 </resources>
